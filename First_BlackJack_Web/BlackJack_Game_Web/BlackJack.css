@@ -1,0 +1,83 @@
+.container{
+    border: 2px gray solid;
+    text-align: center;
+    width:1252px;
+    margin: 0 auto;
+}
+
+.container h2{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.flex-blackjack-row1{
+    border: 1px #000000 solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background:url(https://image.freepik.com/free-photo/royal-flush-playing-card-casino-chips-green-poker-background_23-2147881052.jpg);
+    color: honeydew;
+}
+
+.flex-blackjack-row1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 417px;
+    flex:1;
+    text-align: center;
+
+}
+
+.flex-blackjack-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row2{
+    border: 1px #000000 solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-blackjack-row2 button{
+    border: 1px black solid;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#hit{
+    background-color:  rgba(0, 140, 255, 0.774);
+    color: cornsilk;
+}
+
+#stand{
+    background-color:  rgba(255, 208, 0, 0.897);
+    color: black;
+}
+
+#deal{
+    background-color:  rgba(255, 0, 0, 0.774);
+    color: cornsilk;
+}
+
+.flex-blackjack-row3{
+    border: 1px #000000 solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
