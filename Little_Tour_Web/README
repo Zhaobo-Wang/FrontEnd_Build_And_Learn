@@ -1,0 +1,10 @@
+This is a tour website using react
+
+useState
+useEffect
+props
+filter(delete item)
+map(render each item)
+fetch data
+show more/show less function
+refresh button(onClick = fetch data)
